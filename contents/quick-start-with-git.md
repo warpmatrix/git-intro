@@ -7,6 +7,7 @@
 - [What's Git](#whats-git)
 - [Installing Git](#installing-git)
 - [Command List](#command-list)
+- [总结](#%e6%80%bb%e7%bb%93)
 
 ## What's Git
 
@@ -79,6 +80,15 @@ cd gittest
     使用```git commit```可以将缓存中的内容提交到仓库中。
     ![git commit](/images/git-commit.png)
     图中```-m```表示提供提交信息，图中提交信息为：the first commit。
+
+- ```git config```
+
+    执行第一次```git commit```时，若没有声明自己的身份，会导致无法提交。按照它的指示，使用```git config```指令声明对应的用户名和邮箱即可。
+    ![git config](/images/git-config.png)
+
+    如果加上```--global```参数，即为全局声明，linux系统下，产生的配置文件位于：```~/.gitconfig```；否则，在项目内的```.git/config```配置相应的局部设置。
+
+    因此，```git config```作用，显而易见，就是配置相应的设置。
 
 - ```git log```
     输入```git log```可以查看我们的历史提交信息，包括了作者、时间和提交信息。

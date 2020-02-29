@@ -7,7 +7,7 @@
 - [What's Git](#whats-git)
 - [Installing Git](#installing-git)
 - [Command List](#command-list)
-- [总结](#%e6%80%bb%e7%bb%93)
+- [Summary](#summary)
 
 ## What's Git
 
@@ -137,7 +137,7 @@ cd gittest
     git checkout v0.0
     ```
 
-## 总结
+## Summary
 
 以上是一些最基本的 Git 操作，而且全是在本地环境进行操作的，没有涉及到远程仓库。
 

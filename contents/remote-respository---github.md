@@ -10,7 +10,7 @@
   - [Add SSH Key on Github、](#add-ssh-key-on-github)
 - [Remote Respository Association](#remote-respository-association)
 - [Commit your Code](#commit-your-code)
-- [总结](#%e6%80%bb%e7%bb%93)
+- [Summary](#summary)
 
 ## Brief Introduction of Github
 
@@ -120,7 +120,7 @@ cat id_rsa.pub
 
     一般我们在 push 之前都会先 pull，这样不容易冲突。
 
-## 总结
+## Summary
 
 通过上述配置，就可以实现本地仓库连接到远程仓库，具备和别人一起协同合作的条件。不过，要想更高效地合作或是面对任何情况都不出纰漏，还需要进一步学习。
 

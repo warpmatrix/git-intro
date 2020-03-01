@@ -63,8 +63,10 @@ cd gittest
 - ```git init```
     使用```git init```，可以将当前目录初始化为一个 git 仓库。
     ![git init](/images/git-init.png)
+
     成功初始化后，我们可以看到当前目录新增了一个隐藏文件夹```.git```，里面记录了当前 git 仓库的信息。此时，输入```git status```：
     ![git status after init](/images/git-status-aft-init.png)
+
     提示我们当前分支信息（分支的概念会在下文的```git branch```进一步解释）、提交记录和缓存信息。
 
 - ```git add```
@@ -74,9 +76,11 @@ cd gittest
     Ps：我们也可以使用适配符 *，使用```git add *```可以将所有文件一次提交到缓存。
 
 - ```git rm```
+
     上图中我们也可以看到使用```git rm --cached README.md```，可以将这一缓存移除。
 
 - ```git commit```
+
     使用```git commit```可以将缓存中的内容提交到仓库中。
     ![git commit](/images/git-commit.png)
     图中```-m```表示提供提交信息，图中提交信息为：the first commit。
@@ -91,10 +95,12 @@ cd gittest
     因此，```git config```作用，显而易见，就是配置相应的设置。
 
 - ```git log```
+
     输入```git log```可以查看我们的历史提交信息，包括了作者、时间和提交信息。
     ![git log](/images/git-log.png)
 
 - ```git branch```
+
     branch 即分支的意思，分支的概念很重要，尤其是团队协作的时候，做同一个项目，这个时候分支就能让团队方便地协同合作。
 
     举个例子，A，B俩人都在做同一项目的不同模块，这个时候 A 可以新建了一个分支 a，B 可以新建一个分支 b，这样 A、B 做的所有代码改动都各自在各自的分支，互不影响，等到俩人都把各自的模块都做完了，最后再统一把分支合并起来。
@@ -114,18 +120,21 @@ cd gittest
     如果 a 分支的代码还没有合并到 master 分支，使用```git branch -d a```会出现错误，若想要强制删除 a 分支，需要使用```git branch -D a```。
 
 - ```git checkout```
+
     新建分支后，执行```git checkout a```，切换到分支 a。
     ![git checkout branch](/images/git-checkout-branch.png)
 
     当然，我们也可以新建切换分支一步到位，可以使用指令```git checkout -b a```。
 
 - ```git merge```
+
     当分支上的代码编写完成，并完成提交后。我们可以将该分支合并到主分支上，使用指令```git merge```。
 
     首先要做的是将分支切换为主分支 master，再输入```git merge a```指令。
     ![git merge](/images/git-merge.png)
 
 - ```git tag```
+
     我们还可以给各历史版本加上标签，像是客户端开发的版本号之类的均可。
 
     使用```git tag```可查看标签；使用```git tag v0```可以增加标签 v0 。

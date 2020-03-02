@@ -126,6 +126,15 @@ git checkout ./ # 对整个文件夹进行撤销操作
 
 例如，如果不小心错误调用了```git stash apply```，可以使用```git checkout```进行撤销操作。
 
+### Git Reset
+
+与 ```git checkout``` 类似，```git reset```主要用于版本回溯。
+
+```shell
+git reset HEAD^ # 回退上一个版本
+git reset HEAD^^ # 回退两个版本
+```
+
 ### Git Rebase
 
 ```git rebase```和```git merge```一样，都用于合并分支。

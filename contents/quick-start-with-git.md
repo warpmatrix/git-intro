@@ -52,6 +52,7 @@ cd gittest
 ```
 
 - ```git status```
+
     指令```git status```可以展示当前工作区的仓库状态。
     如：本地机器和缓存之间的异同、缓存中存储的代码更改等。
 
@@ -61,6 +62,7 @@ cd gittest
     此处意为当前目录还不是一个 git 仓库。
 
 - ```git init```
+
     使用```git init```，可以将当前目录初始化为一个 git 仓库。
     ![git init](/images/git-init.png)
 
@@ -70,8 +72,10 @@ cd gittest
     提示我们当前分支信息（分支的概念会在下文的```git branch```进一步解释）、提交记录和缓存信息。
 
 - ```git add```
+
     我们在目录下创建的任意文件，都可以通过```git add```指令提交到缓存当中。当然我们也可以通过```git status```比较，```git add```前后的信息。
     ![git add](/images/git-add.png)
+
     其中，```Untracked files```指没有被跟踪的文件，还没有提交在 git 仓库上的文件。```add```后文件变为```Changes to be committed```，意为文件已经提交到缓存中，等待提交到仓库中。
     Ps：我们也可以使用适配符 *，使用```git add *```可以将所有文件一次提交到缓存。
 
@@ -83,6 +87,7 @@ cd gittest
 
     使用```git commit```可以将缓存中的内容提交到仓库中。
     ![git commit](/images/git-commit.png)
+
     图中```-m```表示提供提交信息，图中提交信息为：the first commit。
 
 - ```git config```

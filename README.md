@@ -17,3 +17,7 @@
 - [Advanced Git](contents/advanced-git.md)
 
     主要涉及一些常用的配置，方便开发的一些技巧以及介绍如何解决冲突。
+
+- [Branch Management](contents/branch-management.md)
+
+    介绍与分支相关的其它 Git 指令以及 Git 的一种工作流程 - Git Flow。

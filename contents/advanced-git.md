@@ -11,6 +11,7 @@
 - [More Git Instructions](#more-git-instructions)
   - [Git Stash](#git-stash)
   - [Git Checkout](#git-checkout)
+  - [Git Reset](#git-reset)
   - [Git Rebase](#git-rebase)
 - [Resolving Conflicts](#resolving-conflicts)
 - [Summary](#summary)

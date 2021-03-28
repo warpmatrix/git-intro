@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# Advanced Git
+# Git Commit
 
 <!-- omit in toc -->
 ## Table of Contents
@@ -9,6 +9,7 @@
   - [Alias for Abbreviation](#alias-for-abbreviation)
   - [Advanced Alias](#advanced-alias)
 - [More Git Instructions](#more-git-instructions)
+  - [Git Diff](#git-diff)
   - [Git Stash](#git-stash)
   - [Git Checkout](#git-checkout)
   - [Git Reset](#git-reset)

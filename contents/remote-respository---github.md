@@ -94,9 +94,7 @@ cat id_rsa.pub
 
 ## Commit your Code
 
-完成上述工作，我们就可以提交我们修改后的代码。
-
-这里需要介绍两条指令：
+完成上述工作，我们就可以提交我们修改后的代码。这里介绍远程仓库相关的一些指令：
 
 - ```git push```
 
@@ -119,6 +117,16 @@ cat id_rsa.pub
     ```
 
     一般我们在 push 之前都会先 pull，这样不容易冲突。
+
+- ```git fetch```
+
+    fetch 也是从远程仓库获取最新版本到本地。这里需要和 `git pull` 进行区分：fetch 获取远程仓库后不会自动 merge 到本地，而是创建一个新的 branch；而 pull 会自动合并、修改当前工作。在实际使用中，git fetch更安全一些因为在merge前，我们可以查看更新情况，然后再决定是否合并。通常来说 fetch 的使用流程如下：
+
+    ```shell
+    git fetch origin master:tmp
+    git diff tmp
+    git merge tmp
+    ```
 
 ## Summary
 

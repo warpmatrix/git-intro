@@ -1,4 +1,8 @@
-# Git Hook
+# Tricks in Git
+
+exclude files in `git diff`: `git diff ':!<filenames>'`
+
+## Git Hook
 
 [git hook](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) 能让 git 执行特定操作时触发的自定义脚本，可以用于实现 ci、维护不同分支文件、规定代码风格/提交留言格式、邮件提醒等一系列骚操作。
 

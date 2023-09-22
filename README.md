@@ -11,4 +11,4 @@
 - [Git Commit](contents/git-commit.md)：主要介绍 commit 的常用操作、介绍如何解决冲突，还涉及一些 commit 的常用配置，方便进行开发的技巧。
 - [Branch Management](contents/branch-management.md)：介绍与分支相关的其它 Git 指令以及 Git 的一种工作流程 - Git Flow。
 - [Merge Commit and Repository](contents/merge-commit-repo.md)：主要介绍如何合并提交和仓库，并介绍了 merge 的一些参数。
-- [Git Hook](contents/git-hook.md)：git hook 的简单介绍，用于实现 ci、团队合作、分支维护等一系列操作。
+- [Tricks in Git](contents/git-hook.md)：git hook 的简单介绍，用于实现 ci、团队合作、分支维护等一系列操作，另外还包括了一些小技巧，如查找背锅侠。
